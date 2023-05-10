@@ -2,8 +2,8 @@ package auth
 
 import (
 	"errors"
-	"github.com/869413421/chatgpt-web/pkg/model/user"
 	"github.com/dgrijalva/jwt-go"
+	"github.com/eswulei/chatgpt-web/pkg/model/user"
 	"github.com/gin-gonic/gin"
 	"strings"
 	"time"

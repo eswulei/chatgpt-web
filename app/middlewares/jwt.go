@@ -1,8 +1,8 @@
 package middlewares
 
 import (
-	"github.com/869413421/chatgpt-web/app/http/controllers"
-	"github.com/869413421/chatgpt-web/pkg/auth"
+	"github.com/eswulei/chatgpt-web/app/http/controllers"
+	"github.com/eswulei/chatgpt-web/pkg/auth"
 	"github.com/gin-gonic/gin"
 	"net/http"
 )

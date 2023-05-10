@@ -1,4 +1,4 @@
-module github.com/869413421/chatgpt-web
+module github.com/eswulei/chatgpt-web
 
 go 1.18
 
@@ -11,6 +11,8 @@ require (
 	golang.org/x/crypto v0.0.0-20210921155107-089bfa567519
 	golang.org/x/net v0.8.0
 	gorm.io/gorm v1.24.6
+	gorm.io/driver/mysql v1.3.6
+
 )
 
 require (

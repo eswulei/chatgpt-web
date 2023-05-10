@@ -1,8 +1,8 @@
 package routes
 
 import (
-	. "github.com/869413421/chatgpt-web/app/http/controllers"
-	"github.com/869413421/chatgpt-web/app/middlewares"
+	. "github.com/eswulei/chatgpt-web/app/http/controllers"
+	"github.com/eswulei/chatgpt-web/app/middlewares"
 	"github.com/gin-gonic/gin"
 )
 

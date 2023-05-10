@@ -1,9 +1,9 @@
 package main
 
 import (
-	"github.com/869413421/chatgpt-web/bootstarp"
-	"github.com/869413421/chatgpt-web/config"
 	"github.com/alecthomas/kong"
+	"github.com/eswulei/chatgpt-web/bootstarp"
+	"github.com/eswulei/chatgpt-web/config"
 )
 
 func main() {

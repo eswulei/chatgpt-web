@@ -5,7 +5,7 @@ import (
 
 	"golang.org/x/crypto/bcrypt"
 
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"github.com/eswulei/chatgpt-web/pkg/logger"
 )
 
 // Hash 进行加密
@@ -18,7 +18,7 @@ func Hash(password string) string {
 	return string(bytes)
 }
 
-//CheckHash 检查密码和hash是否匹配
+// CheckHash 检查密码和hash是否匹配
 func CheckHash(password string, hash string) bool {
 	err := bcrypt.CompareHashAndPassword([]byte(hash), []byte(password))
 	fmt.Println(err)

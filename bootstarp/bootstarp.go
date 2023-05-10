@@ -1,8 +1,8 @@
 package bootstrap
 
 import (
-	"github.com/869413421/chatgpt-web/config"
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"github.com/eswulei/chatgpt-web/config"
+	"github.com/eswulei/chatgpt-web/pkg/logger"
 	"github.com/gin-gonic/gin"
 	"mime"
 	"strconv"

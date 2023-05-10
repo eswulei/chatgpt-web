@@ -1,7 +1,7 @@
 package types
 
 import (
-	"github.com/869413421/chatgpt-web/pkg/logger"
+	"github.com/eswulei/chatgpt-web/pkg/logger"
 	"strconv"
 )
 
